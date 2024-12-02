@@ -1,0 +1,34 @@
+{
+    "name": "FlyControl",
+    "maps": [
+        {
+            "name": "Fly",
+            "id": "2d93a035-ef0d-47e5-a374-c098bb10b5ed",
+            "actions": [
+                {
+                    "name": "FlyToggle",
+                    "type": "Button",
+                    "id": "ceda5c72-93a5-49c0-b4ef-dbfaf456f25f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f7afed19-c870-42d1-b76f-da205d714743",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlyToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
